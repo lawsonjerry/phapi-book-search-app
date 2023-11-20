@@ -19,3 +19,12 @@ h2, h1 {
     margin-top: 50px;
     visibility: show;
 }
+
+#list-output{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#list-output p {
+    margin-bottom: 10px;
+}

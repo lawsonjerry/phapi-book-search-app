@@ -11,9 +11,8 @@ searchButton.addEventListener('click', () => {
         return;
     }
 
-
     // Make an API call to search for books using the search term
-    fetch('https://openlibrary.org/search.json?title=' + searchTerm)
+    fetch('https://openlibrary.org/search.json?subject=hermeticism&title' + searchTerm)
         .then(response => response.json())
         .then(data => {
             const docs = data.docs;
@@ -28,7 +27,7 @@ searchButton.addEventListener('click', () => {
                 resultsHTML += `
                     <p>
                     <strong>${doc.title_suggest}</strong><br>
-                    ${doc.author_name[0]}<br>
+                    ${doc.author_name || `Unknown Author`}<br>
                     <a href="${doc.covers?.[0]?.large}">Cover Image</a>
                 </p>`;
             }
