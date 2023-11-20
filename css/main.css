@@ -11,6 +11,12 @@ h2, h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 #header {
     font-size: 3rem;
 }
@@ -57,6 +63,12 @@ h2, h1 {
 #list-output p {
     margin-bottom: 10px;
 }
+
+a {
+    text-decoration: none;
+  }
+
+
 
 /* For small screens (portrait phones) */
 @media (max-width: 576px) {

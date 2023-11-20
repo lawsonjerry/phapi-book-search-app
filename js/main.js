@@ -4,6 +4,8 @@ const searchButton = document.getElementById('search'); //selects search button
 const listOutput = document.getElementById('list-output'); //selects the list of output of books
 
 
+
+
 searchButton.addEventListener('click', (event) => {
     event.preventDefault()
     const searchTerm = inputElement.value.trim();
@@ -36,3 +38,4 @@ searchButton.addEventListener('click', (event) => {
             listOutput.innerHTML = resultsHTML;
         });
 });
+
