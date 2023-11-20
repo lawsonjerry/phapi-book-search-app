@@ -4,7 +4,8 @@ const searchButton = document.getElementById('search');
 const listOutput = document.getElementById('list-output');
 
 
-searchButton.addEventListener('click', () => {
+searchButton.addEventListener('click', (event) => {
+    event.preventDefault()
     const searchTerm = inputElement.value.trim();
 
     if (!searchTerm) {

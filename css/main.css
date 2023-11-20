@@ -57,3 +57,11 @@ h2, h1 {
 #list-output p {
     margin-bottom: 10px;
 }
+
+/* For small screens (portrait phones) */
+@media (max-width: 576px) {
+    body {
+        background-size: auto;
+      
+    }
+}
