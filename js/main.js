@@ -1,7 +1,7 @@
 
-const inputElement = document.querySelector(`[type="search box"]`)
-const searchButton = document.getElementById('search');
-const listOutput = document.getElementById('list-output');
+const inputElement = document.querySelector(`[type="search box"]`) //selects search box
+const searchButton = document.getElementById('search'); //selects search button
+const listOutput = document.getElementById('list-output'); //selects the list of output of books
 
 
 searchButton.addEventListener('click', (event) => {
