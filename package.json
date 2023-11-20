@@ -1,0 +1,12 @@
+{
+  "name": "phapi-book-search-app",
+  "version": "1.0.0",
+  "description": "Phapi is fictional book search engine only for books about Hermeneutics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Will Do",
+  "license": "ISC"
+}
