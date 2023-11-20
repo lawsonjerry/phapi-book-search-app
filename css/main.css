@@ -16,13 +16,42 @@ h2, h1 {
 }
 
 .book-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
     visibility: show;
 }
+
+/* .search-results {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  } */
+
+  /* .search-result {
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+   */
 
 #list-output{
     margin-top: 20px;
     padding: 10px;
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 #list-output p {
